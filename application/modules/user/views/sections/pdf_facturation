@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>pdf</title>
+    <meta charset='utf-8'>
+    <style type="text/css">
+        #tableau {
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            margin: auto;
+        }
+
+        th {
+            background-color: rgba(153, 153, 153, 0.6)
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        .pair {
+            background-color: white;
+        }
+
+        .impair {
+            background-color: rgba(153, 153, 153, 0.2);
+        }
+
+        #date {
+            font-family: arial;
+            font-size: 12px;
+            font-weight: normal;
+            border-bottom: 2px solid #f8f8f8;
+            margin-top: 1px;
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="entete">
+    
+
+    <p align='right' id="date"
+       style="line-height:65px; margin-left:20px;margin-top:25px; "> <?php echo date("d/m/Y h:i:s"); ?></p>
+
+</div>
+
+<table id="tableau">
+    <thead style="align: 'center'">
+    <tr>
+       
+    </tr>
+    </thead>
+    <tbody>
+
+		<tr></tr>
+    </tbody>
+</table>
+
+</body>
+</html>

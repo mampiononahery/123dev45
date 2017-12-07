@@ -1,0 +1,148 @@
+/** LIGHTBOX */
+.dhx_cal_larea, .dhx_cal_light_wide {height: auto!important;}
+.dhx_cal_light_wide {padding-bottom: 15px}
+#selectProduct {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 10px auto;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border:solid 1px #ddd; border-collapse: collapse;
+}
+table tr td, table tr th {border-collapse: collapse; border:solid 1px #ddd; padding: 5px; text-align: left; position: relative;}
+table tr td div {position: relative;}
+.r-plus {
+    background: none repeat scroll 0 0 #1796B0;
+    color: #FFFFFF;
+    display: block;
+    height: 13px;
+    line-height: 11px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 1px;
+    width: 15px;
+    cursor: pointer;
+}
+.r-moins {
+    background: none repeat scroll 0 0 #1796B0;
+    color: #FFFFFF;
+    display: block;
+    height: 13px;
+    line-height: 11px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    bottom: 1px;
+    width: 15px;
+    cursor: pointer;
+}
+.prod_libelle, .prod_prix_ttc, .dhx_cal_light select.qte, .remise, .prix_ttc {
+    border: 1px solid #DDDDDD;
+    display: block;
+    height: 25px;
+    line-height: 101px;
+    padding: 0 5%;
+    width: 90%;
+}
+.dhx_cal_light_wide .dhx_cal_lsection {
+    border: 0 none;
+    float: left;
+    height: 20px;
+    padding: 0 10px 0 10px;
+    text-align: right;
+    width: 165px;
+}
+.ui-autocomplete {width: 300px!important}
+.ui-autocomplete li a {display: block!important; font-size: 12px!important; padding: 5px!important;}
+.ui-autocomplete li a:hover, .ui-autocomplete li a:focus, .ui-autocomplete li a:visited {display: block!important; background: none!important; border:none!important; font-size: 12px!important; padding: 5px!important; margin: 0!important}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {display: block!important; background: none!important; border:none!important; padding: 5px!important; font-size: 12px!important; margin: 0!important}
+input#client, input#produits {
+    width: 300px;
+    border: solid 1px #ddd;
+    padding: 5px;
+}
+.dhx_cal_radio label {
+    display: block;
+    float: left;
+    height: 25px;
+    background: #ddd;
+    padding: 3px 10px;
+    margin: 0 5px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dhx_cal_radio label.active {
+    box-shadow:inset 0px 10px 25px 0px #999;
+    -moz-box-shadow:inset 0px 10px 25px 0px #999;
+    -webkit-box-shadow:inset 0px 10px 25px 0px #999;
+}
+.dhx_cal_radio input {
+    display: none;
+}
+/** //LIGHTBOX */
+
+/** COLORING EVENT */
+.my_event.event_1{
+    background-color: #9b59b6 !important;
+    border-color: #9b59b6 !important;
+}
+.my_event.event_1{
+    background-color: #f1c40f !important;
+    border-color: #f1c40f !important;
+}
+.my_event.event_2{
+    background-color: #e67e22 !important;
+    border-color: #e67e22 !important;
+}
+.my_event.event_3{
+    background-color: #3498db !important;
+    border-color: #3498db !important;
+}
+.my_event.event_4{
+    background-color: #9b59b6 !important;
+    border-color: #9b59b6 !important;
+}
+.my_event.event_5{
+    background-color: #2980b9 !important;
+    border-color: #2980b9 !important;
+}
+/** //COLORING EVENT */
+
+/* background color for whole container and it's border*/
+.my_event {
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+}
+/* disabling default color for select menu */
+.dhx_cal_select_menu.my_event div {
+    border: 0;
+    background-color: transparent;
+    color: black;
+}
+/* styles for event content */
+.dhx_cal_event.my_event .my_event_body {
+
+    padding-top: 3px;
+    padding-left: 5px;
+}
+/* event's date information */
+.my_event .event_date {
+    font-weight: bold;
+    padding-right: 5px;
+}
+/* event's resizing section */
+.my_event_resize {
+    height: 3px;
+    position: absolute;
+    bottom: -1px;
+}
+/* event's move section */
+.my_event_move {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    cursor: pointer;
+}

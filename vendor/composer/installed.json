@@ -1,0 +1,77 @@
+[
+    {
+        "name": "mikey179/vfsStream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikey179/vfsStream.git",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25T12:49:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    },
+    {
+        "name": "dhtmlx/connector-php",
+        "version": "dev-modern",
+        "version_normalized": "dev-modern",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DHTMLX/connector-php.git",
+            "reference": "4e573366ddf41f8560bedcc253b412260c656b67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DHTMLX/connector-php/zipball/4e573366ddf41f8560bedcc253b412260c656b67",
+            "reference": "4e573366ddf41f8560bedcc253b412260c656b67",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-11-04T10:07:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "yii2": "1.0.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Dhtmlx\\Connector\\": "codebase/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU"
+        ],
+        "description": "PHP extension for the DHTMLX library",
+        "homepage": "http://dhtmlx.com/docs/products/dhtmlxConnector/index.shtml",
+        "keywords": [
+            "connector",
+            "connector-php",
+            "dhtmlx"
+        ]
+    }
+]

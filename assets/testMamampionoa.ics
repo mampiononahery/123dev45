@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kigkonsult.se//NONSGML kigkonsult.se iCalcreator 2.24//
+METHOD:PUBLISH
+X-WR-CALNAME:Calendar Sample
+X-WR-CALDESC:Calendar Description
+X-WR-TIMEZONE:Europe/Stockholm
+END:VCALENDAR
