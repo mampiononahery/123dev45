@@ -137,6 +137,13 @@
                                     <li><a href="<?php echo base_url('administrator/field/object/') ?>">Champs objets</a></li>
                                 </ul>
                             </li>
+                            <!-- Nandrianina -->
+                            <li>
+                                <a href="<?php echo base_url('administrator/importation') ?>" title="Importation des Clients">
+                                    <i class="fa fa-modx"></i>
+                                    <span>Importation des Clients</span>
+                                </a>
+                            </li>
                             <!-- begin sidebar minify button -->
                             <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
                             <!-- end sidebar minify button -->
